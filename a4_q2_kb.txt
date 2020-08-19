@@ -1,0 +1,17 @@
+unlock <-- press_key
+get_in <-- unlock & open_door
+start <-- insert_key & turn_ignition
+accelerate <-- gas_pedal
+slow_down <-- brake_pedal
+reverse <-- shift_reverse & look_around & accelerate
+shift_gears <-- clutch_pedal & select_gear
+stop <-- slow_down & shift_gears
+change_lanes <-- turn_signal & check_blindspot & turn_wheel
+merge <-- turn_signal & check_blindspot & accelerate & shift_gears & turn_wheel
+race <-- accelerate & shift_gears & feel_alive
+turn_off <-- stop & remove_key
+check_oil <-- turn_off & open_hood & remove_dipstick
+fill_tank <-- turn_off & open_gastank & pump_fuel
+overheating <-- above_ninety_degrees & engine_smoking
+flat_tire <-- slow_down & loud_pop
+accident <-- air_bags & loud_boom & stop
